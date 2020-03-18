@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    margin: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase {
+    content: ;
+    height: 150vh;
+    width: 100% ;
+    background-image: url("images/sand.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(2px);
+    }
+
+    .showcase:hover {
+        filter: blur(0px);
+    }
+
+.content {
+position: absolute;
+top: 10px;
+left: 50%;
+margin-top: 105px;
+margin-left: -145px;
+width: 300px;
+height: 350px;
+text-align: center;
+transition: all 1000ms;
+}
+
+.content .logo {
+height: 180px;
+width: 180px;
+}
+
+.content .title {
+font-size: 2.4rem;
+margin-top: 1rem;
+}
+
+.content .text {
+line-height: 1.7;
+margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+img {
+    border-radius: 30%;
+    box-shadow: grey 2px 2px 2px;
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer {
+    background-image: url("images/FT1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reach {
+    align-items: center;
+    text-align: center;
+}
+
+/* for mobile */
+
+@media (max-width:600px){
+body {
+    background-color: honeydew;
+    color: black;
+}
+.showcase {
+    height: 120vh;
+    color: cornsilk;
+    filter: blur(0px);
+    filter: brightness(10px);
+}
+footer {
+    background-image: url("images/FT3.jpg");
+}
+}
+ 
